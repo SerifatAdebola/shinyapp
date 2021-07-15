@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1626363141858.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3956869493",
+    "id" : "80CE5141",
+    "lastKnownWriteTime" : 1626368536,
+    "last_content_update" : 1626368536345,
+    "path" : "~/lm/app.r",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "140,0",
+        "scrollLine" : "110"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

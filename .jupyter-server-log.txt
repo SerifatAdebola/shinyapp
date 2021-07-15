@@ -1,0 +1,157 @@
+[I 15:26:51.102 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-07-15 15:26:52.196 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-15 15:26:52.197 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-15 15:26:52.197 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:26:52.197 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-15 15:26:52.213 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-15 15:26:52.214 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 15:26:52.221 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 15:26:52.223 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 15:26:52.224 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 15:26:52.224 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 15:26:52.224 NotebookApp] http://jupyter-serifatadebola-2dshinyapp-2db5wyjexj:8888/user/serifatadebola-shinyapp-b5wyjexj/?token=...
+[I 15:26:52.224 NotebookApp]  or http://127.0.0.1:8888/user/serifatadebola-shinyapp-b5wyjexj/?token=...
+[I 15:26:52.224 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:26:52.228 NotebookApp] No web browser found: could not locate runnable browser.
+[I 15:26:52.230 NotebookApp] 302 GET /user/serifatadebola-shinyapp-b5wyjexj/ (10.0.0.17) 0.850000ms
+[I 15:26:59.510 NotebookApp] 302 GET /user/serifatadebola-shinyapp-b5wyjexj/?token=B3qvO0QRTkyUWfZe4qaQeQ (74.135.2.152) 0.840000ms
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.4' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 15:31:45.876 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:31:45.879 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:31:55.627 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:31:55.631 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:32:29.664 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:32:29.668 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:36:01.710 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:36:01.715 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:40:36.214 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:40:36.218 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:41:01.479 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:41:01.483 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:45:08.550 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:45:08.553 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:46:42.924 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:46:42.929 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:47:05.642 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:47:05.647 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:48:55.150 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:48:55.154 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:50:56.664 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:50:56.668 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:53:00.965 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:53:00.969 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:53:12.862 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:53:12.866 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:53:46.774 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:53:46.778 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:54:12.451 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:54:12.455 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:55:13.812 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:55:13.822 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:57:14.444 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:57:14.448 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:58:06.063 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:58:06.067 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:58:58.703 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:58:58.706 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:59:22.112 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 15:59:22.116 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:04:21.283 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:04:21.287 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:05:04.485 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:05:04.489 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:06:03.667 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:06:03.673 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:08:38.416 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:08:38.420 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:09:13.307 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:09:13.311 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:13:15.584 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:13:15.587 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:16:51.973 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:16:51.976 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:18:01.340 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:18:01.344 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:18:30.388 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:18:30.392 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:19:23.412 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:19:23.417 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:20:07.134 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:20:07.138 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:20:09.826 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:20:09.831 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:21:12.211 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:21:12.215 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:22:28.964 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:22:28.968 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:23:17.311 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:23:17.315 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:24:30.870 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:24:30.874 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:31:49.505 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[E 16:31:49.507 NotebookApp] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7fd73208cd90>>, <Task finished name='Task-8606' coro=<ProxyHandler.proxy_open.<locals>.start_websocket_connection() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py:307> exception=HTTP 500: Internal Server Error>)
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+        future.result()
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py", line 311, in start_websocket_connection
+        self.ws = await pingable_ws_connect(request=request,
+    tornado.httpclient.HTTPClientError: HTTP 500: Internal Server Error
+Task was destroyed but it is pending!
+task: <Task pending name='Task-8604' coro=<RequestHandler._execute() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py:1660> wait_for=<Task pending name='Task-8605' coro=<WebSocketHandler.get() running at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/websocket.py:278> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fd73127ffa0>()]> cb=[<TaskWakeupMethWrapper object at 0x7fd73127f340>()]> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py:2326]>
+Task was destroyed but it is pending!
+task: <Task pending name='Task-8605' coro=<WebSocketHandler.get() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/websocket.py:231> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fd73127ffa0>()]> cb=[<TaskWakeupMethWrapper object at 0x7fd73127f340>()]>
+[I 16:32:06.797 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:32:06.801 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:34:56.156 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:34:56.160 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:39:47.916 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:39:47.920 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:40:12.386 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:40:12.390 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:41:56.061 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:41:56.066 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:43:46.535 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:43:46.542 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:44:30.901 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:44:30.906 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:44:45.263 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:44:45.267 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:44:57.852 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:44:57.856 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:56:17.989 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[E 16:56:17.992 NotebookApp] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7fd73208cd90>>, <Task finished name='Task-11481' coro=<ProxyHandler.proxy_open.<locals>.start_websocket_connection() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py:307> exception=HTTP 500: Internal Server Error>)
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+        ret = callback()
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+        future.result()
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/jupyter_server_proxy/handlers.py", line 311, in start_websocket_connection
+        self.ws = await pingable_ws_connect(request=request,
+    tornado.httpclient.HTTPClientError: HTTP 500: Internal Server Error
+Task was destroyed but it is pending!
+task: <Task pending name='Task-11479' coro=<RequestHandler._execute() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py:1660> wait_for=<Task pending name='Task-11480' coro=<WebSocketHandler.get() running at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/websocket.py:278> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fd7297e0e80>()]> cb=[<TaskWakeupMethWrapper object at 0x7fd7312c2a30>()]> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py:2326]>
+Task was destroyed but it is pending!
+task: <Task pending name='Task-11480' coro=<WebSocketHandler.get() done, defined at /srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/websocket.py:231> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7fd7297e0e80>()]> cb=[<TaskWakeupMethWrapper object at 0x7fd7312c2a30>()]>
+[I 16:56:30.235 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:56:30.238 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:57:52.841 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:57:52.847 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:59:46.209 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 16:59:46.213 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 17:01:20.966 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 17:01:20.970 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 17:01:45.672 NotebookApp] Trying to establish websocket connection to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 17:01:45.676 NotebookApp] Websocket connection established to ws://localhost:53191/p/0ff05c3d/websocket/
+[I 17:02:26.976 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
