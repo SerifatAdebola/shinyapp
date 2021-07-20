@@ -431,3 +431,151 @@ task: <Task pending name='Task-5379' coro=<WebSocketHandler.get() done, defined 
 [E 16:48:48.157 NotebookApp] 500 GET /user/serifatadebola-shinyapp-i84t931m/rstudio/p/763566c5/session/d7ae0bad687a858df7e8ac50d7f1b00c/download/downloadPlot?w= (74.135.2.152) 19.860000ms referer=https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/rstudio/p/763566c5/
 [I 16:50:13.012 NotebookApp] Trying to establish websocket connection to ws://localhost:46081/p/763566c5/websocket/
 [I 16:50:13.016 NotebookApp] Websocket connection established to ws://localhost:46081/p/763566c5/websocket/
+[I 16:54:58.553 NotebookApp] Creating new notebook in 
+[I 16:54:58.569 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[I 16:55:00.194 NotebookApp] Kernel started: c604ccba-2ac5-4ce3-8f56-3dcae28d7b07, name: ir
+[I 16:55:00.194 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 16:55:00.194 NotebookApp] Culling kernels even with connected clients
+[I 16:55:00.919 NotebookApp] Adapting from protocol version 5.0 (kernel c604ccba-2ac5-4ce3-8f56-3dcae28d7b07) to 5.3 (client).
+[I 16:55:04.212 NotebookApp] Starting buffering for c604ccba-2ac5-4ce3-8f56-3dcae28d7b07:897dc8039da343278d251ac8ca6ea23d
+[W 16:56:59.781 NotebookApp] delete /exmaple
+[E 16:56:59.782 NotebookApp] Uncaught exception DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/exmaple (74.135.2.152)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='DELETE', uri='/user/serifatadebola-shinyapp-i84t931m/api/contents/exmaple', version='HTTP/1.1', remote_ip='74.135.2.152')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/exmaple' -> b'/home/jovyan/.local/share/Trash/files/exmaple'
+[W 16:56:59.791 NotebookApp] Unhandled error
+[E 16:56:59.791 NotebookApp] {
+      "Content-Length": "0",
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1626794698|30:username-hub-gke2-mybinder-org|44:MTA4MGViZWY1MGViNDc0Yjg2YWMzODFiZTZkYjlhZDE=|b412e70a33e75e31ef2cd05f783116d6f256aab2cca506485a479117432f5ad1\"; _xsrf=2|16ad57ab|97448dc2bcc5267470753ee142acf9c5|1624383777; csrf-token=35b86be9-3ef4-42fa-a396-5c2fb5e8cfbf",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|16ad57ab|97448dc2bcc5267470753ee142acf9c5|1624383777",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "74.135.2.152,::ffff:10.0.0.20",
+      "X-Real-Ip": "74.135.2.152",
+      "X-Request-Id": "d08b0bb6ba92147591821d26715fd945",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:56:59.792 NotebookApp] 500 DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/exmaple (74.135.2.152) 11.100000ms referer=https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree
+[W 16:57:20.172 NotebookApp] delete /exmaple
+[E 16:57:20.173 NotebookApp] Uncaught exception DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/exmaple (74.135.2.152)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='DELETE', uri='/user/serifatadebola-shinyapp-i84t931m/api/contents/exmaple', version='HTTP/1.1', remote_ip='74.135.2.152')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/exmaple' -> b'/home/jovyan/.local/share/Trash/files/exmaple'
+[W 16:57:20.173 NotebookApp] Unhandled error
+[E 16:57:20.174 NotebookApp] {
+      "Content-Length": "0",
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1626794698|30:username-hub-gke2-mybinder-org|44:MTA4MGViZWY1MGViNDc0Yjg2YWMzODFiZTZkYjlhZDE=|b412e70a33e75e31ef2cd05f783116d6f256aab2cca506485a479117432f5ad1\"; _xsrf=2|16ad57ab|97448dc2bcc5267470753ee142acf9c5|1624383777; csrf-token=35b86be9-3ef4-42fa-a396-5c2fb5e8cfbf",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|16ad57ab|97448dc2bcc5267470753ee142acf9c5|1624383777",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "74.135.2.152,::ffff:10.0.0.20",
+      "X-Real-Ip": "74.135.2.152",
+      "X-Request-Id": "8662e993dc6b85b8b207cadf31c09b51",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:57:20.174 NotebookApp] 500 DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/exmaple (74.135.2.152) 2.070000ms referer=https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree
+[W 16:57:20.177 NotebookApp] delete /New
+[E 16:57:20.178 NotebookApp] Uncaught exception DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/New (74.135.2.152)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='DELETE', uri='/user/serifatadebola-shinyapp-i84t931m/api/contents/New', version='HTTP/1.1', remote_ip='74.135.2.152')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/New' -> b'/home/jovyan/.local/share/Trash/files/New'
+[W 16:57:20.178 NotebookApp] Unhandled error
+[E 16:57:20.179 NotebookApp] {
+      "Content-Length": "0",
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1626794698|30:username-hub-gke2-mybinder-org|44:MTA4MGViZWY1MGViNDc0Yjg2YWMzODFiZTZkYjlhZDE=|b412e70a33e75e31ef2cd05f783116d6f256aab2cca506485a479117432f5ad1\"; _xsrf=2|16ad57ab|97448dc2bcc5267470753ee142acf9c5|1624383777; csrf-token=35b86be9-3ef4-42fa-a396-5c2fb5e8cfbf",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|16ad57ab|97448dc2bcc5267470753ee142acf9c5|1624383777",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "74.135.2.152,::ffff:10.0.0.20",
+      "X-Real-Ip": "74.135.2.152",
+      "X-Request-Id": "65b45454d9efbb02fe3cd391e61bea17",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:57:20.179 NotebookApp] 500 DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/New (74.135.2.152) 1.510000ms referer=https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree
