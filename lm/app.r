@@ -57,7 +57,8 @@ ui <- fluidPage(
                          selected = "head"),
             # Input: Select number of rows to display ----
             actionButton("lmPlot", "Linear regression"),
-            
+            downloadButton('downloadPlot', 'Download Plot')
+            #downloadButton('downloadPlot', 'Download Plot')
         ),
 
         # Show a plot of the generated distribution
@@ -69,7 +70,8 @@ ui <- fluidPage(
            h4("Slope"),
            textOutput("Slope"),
            h4("Intercept"),
-           textOutput("Intercept")
+           textOutput("Intercept"),
+           plotOutput('plot')
         )
     )
 )
@@ -96,9 +98,11 @@ server <- function(input, output) {
     #     hist(x, breaks = bins, col = 'darkgray', border = 'white')
     # })
     # 
+
     
     output$distPlot <- renderPlot({
         plot(dataInput()$x,dataInput()$y)
+    
     })
     LinearModel <- eventReactive(input$lmPlot, {
         y <- dataInput()$y
@@ -106,14 +110,15 @@ server <- function(input, output) {
         lmPlot <- lm(y ~ x)
     })
     output$lmPlot <- renderPlot({
-        #y <- dataInput()$y
-        #x <- dataInput()$x
-        #lmPlot <- lm(y ~ x)
-        plot(dataInput()$x,dataInput()$y)
-        abline(LinearModel(), col = "red", lwd = 2)
+        #plot(dataInput()$x,dataInput()$y)
+        #abline(LinearModel(), col = "red", lwd = 2)
+        lmgraph()
     })
     
-    
+    lmgraph <- function(){
+        plot(dataInput()$x,dataInput()$y)
+        abline(LinearModel(), col = "red", lwd = 2)
+    }
     output$summary<- renderText({
  
         
@@ -141,22 +146,17 @@ server <- function(input, output) {
         
     })    
 
+    output$downloadPlot <- downloadHandler(
+        filename = function() { paste(input$file1$datapath, '.png', sep='') },
+        content = function(file) {
+            device <- function(..., width, height) grDevices::png(..., width = width, height = height, res = 300, units = "in")
+            png(file)
+            lmgraph()
+            dev.off()
+        }
+    )
     
-    output$contents <- renderTable({
-        
-        # input$file1 will be NULL initially. After the user selects
-        # and uploads a file, head of that data file by default,
-        # or all rows if selected, will be shown.
-        
-        
-        if(input$disp == "head") {
-            return(head(dataInput()))
-        }
-        else {
-            return(dataInput())
-        }
-        
-    })
+   
         
 }
 
