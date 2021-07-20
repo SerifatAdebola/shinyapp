@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3956869493",
+    "hash" : "0",
     "id" : "80CE5141",
-    "lastKnownWriteTime" : 1626368536,
-    "last_content_update" : 1626368536345,
+    "lastKnownWriteTime" : 1626796024,
+    "last_content_update" : 1626796024146,
     "path" : "~/lm/app.r",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "140,0",
-        "scrollLine" : "110"
+        "cursorPosition" : "139,9",
+        "scrollLine" : "128"
     },
     "read_only" : false,
     "read_only_alternatives" : [

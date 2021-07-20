@@ -64,8 +64,12 @@ ui <- fluidPage(
         mainPanel(
            plotOutput("distPlot"),
            plotOutput("lmPlot"),
-           tableOutput("contents"), 
-           textOutput("results")
+           h4("Rsquared"),
+           textOutput("Rsquared"),
+           h4("Slope"),
+           textOutput("Slope"),
+           h4("Intercept"),
+           textOutput("Intercept")
         )
     )
 )
@@ -109,13 +113,33 @@ server <- function(input, output) {
         abline(LinearModel(), col = "red", lwd = 2)
     })
     
-
-    output$results <- renderPrint({
-        #attributes(summary(LinearModel()))
-        #LinearModel$r.squared
+    
+    output$summary<- renderText({
+ 
         
-
+        paste("Adj R2=", signif(summary(LinearModel())$adj.r.squared,5), "\n",
+              "Intercept = ", signif(LinearModel()$coef[[1]],5), "\n", 
+              "Slope = ", signif(LinearModel()$coef[[2]], 5))
+   
+        
+        
     })
+    output$Rsquared<- renderText({
+        paste("Adj R2=", signif(summary(LinearModel())$adj.r.squared,5)
+              )
+        
+    })
+    output$Slope<- renderText({
+        paste("Slope = ", signif(LinearModel()$coef[[2]], 5)
+        )
+        
+    })
+
+    output$Intercept<- renderText({
+        paste("Intercept = ", signif(LinearModel()$coef[[1]],5)
+        )
+        
+    })    
 
     
     output$contents <- renderTable({
