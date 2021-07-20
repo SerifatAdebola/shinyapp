@@ -579,3 +579,15 @@ task: <Task pending name='Task-5379' coro=<WebSocketHandler.get() done, defined 
       "Connection": "close"
     }
 [E 16:57:20.179 NotebookApp] 500 DELETE /user/serifatadebola-shinyapp-i84t931m/api/contents/New (74.135.2.152) 1.510000ms referer=https://hub.gke2.mybinder.org/user/serifatadebola-shinyapp-i84t931m/tree
+[I 16:59:21.335 NotebookApp] Creating new notebook in 
+[I 16:59:22.239 NotebookApp] Kernel started: daceeb5e-ca0d-4dff-b424-76d31914169b, name: ir
+[I 16:59:23.193 NotebookApp] Adapting from protocol version 5.0 (kernel daceeb5e-ca0d-4dff-b424-76d31914169b) to 5.3 (client).
+[I 16:59:46.556 NotebookApp] Starting buffering for daceeb5e-ca0d-4dff-b424-76d31914169b:dd0ec4baf4e548fb9cba7ae346154d22
+[I 16:59:56.202 NotebookApp] Kernel shutdown: c604ccba-2ac5-4ce3-8f56-3dcae28d7b07
+[I 16:59:56.306 NotebookApp] Kernel shutdown: daceeb5e-ca0d-4dff-b424-76d31914169b
+[W 16:59:56.413 NotebookApp] delete /Untitled.ipynb
+[W 16:59:56.415 NotebookApp] delete /Untitled1.ipynb
+[I 17:00:24.127 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
+Websocket closed
